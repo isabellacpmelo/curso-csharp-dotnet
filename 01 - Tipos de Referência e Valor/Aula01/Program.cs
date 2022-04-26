@@ -1,6 +1,22 @@
 ﻿using static System.Console;
 public class Program
 {
+    static void Demo5()
+    {
+        int[] pares = new int[]{0,2,4,6,8};
+
+        MudarParaImpar(pares);
+        WriteLine($"Os impares {string.Join(",", pares)}");
+    }
+    static void Demo4()
+    {
+        string nome = "Isabella";
+
+        TrocarNome(nome, "Isinha");
+
+        WriteLine($"O nome é {nome}");
+    }
+
     static void Demo3()
     {
          StrucPessoa p1 = new StrucPessoa()
@@ -60,12 +76,39 @@ public class Program
     {
         nome = nomeNovo;
     }
+
+    static void MudarParaImpar(int[] pares)
+    {
+        for (int i = 0; i <pares.Length; i++)
+        {
+            pares[i] = pares[i] + 1;
+        }
+    }
+
+    static int EncontrarNumero(int[] numeros, int numero)
+    {
+        for (int i = 0; i < numeros.Length; i++)
+        {
+            if (numeros[i] == numero)
+              return i; 
+        }
+        return - 1;
+    }
     public static void Main()
     {
-       string nome = "Isabella";
+       int[] numeros = new int[] {0,2,4,6,8};
+       WriteLine($"Digite aqui o número que gostaria de encontrar");
+       var numero = int.Parse(ReadLine());
+       var idxEncontrado = EncontrarNumero(numeros, numero);
 
-       TrocarNome(nome, "Isinha");
-
-        WriteLine($"O nome é {nome}");
+       if (idxEncontrado >= 0) 
+       {
+            WriteLine($"O número encontrado está na posição {idxEncontrado}");
+       }
+       else 
+       {
+           WriteLine("O número digitado não foi encontrado.");
+       }
+      
     }
 }

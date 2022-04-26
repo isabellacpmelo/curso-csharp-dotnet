@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\isabe\\Documents\\Aprendizado Programação\\Cursos\\Curso DotNET\\Tipos de Referência e Valor\\Aula01\\Aula01.csproj": {}
+    "C:\\Users\\isabe\\Documents\\Aprendizado Programação\\Cursos\\curso-csharp-dotnet\\01 - Tipos de Referência e Valor\\Aula01\\Aula01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\isabe\\Documents\\Aprendizado Programação\\Cursos\\Curso DotNET\\Tipos de Referência e Valor\\Aula01\\Aula01.csproj": {
+    "C:\\Users\\isabe\\Documents\\Aprendizado Programação\\Cursos\\curso-csharp-dotnet\\01 - Tipos de Referência e Valor\\Aula01\\Aula01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isabe\\Documents\\Aprendizado Programação\\Cursos\\Curso DotNET\\Tipos de Referência e Valor\\Aula01\\Aula01.csproj",
+        "projectUniqueName": "C:\\Users\\isabe\\Documents\\Aprendizado Programação\\Cursos\\curso-csharp-dotnet\\01 - Tipos de Referência e Valor\\Aula01\\Aula01.csproj",
         "projectName": "Aula01",
-        "projectPath": "C:\\Users\\isabe\\Documents\\Aprendizado Programação\\Cursos\\Curso DotNET\\Tipos de Referência e Valor\\Aula01\\Aula01.csproj",
+        "projectPath": "C:\\Users\\isabe\\Documents\\Aprendizado Programação\\Cursos\\curso-csharp-dotnet\\01 - Tipos de Referência e Valor\\Aula01\\Aula01.csproj",
         "packagesPath": "C:\\Users\\isabe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isabe\\Documents\\Aprendizado Programação\\Cursos\\Curso DotNET\\Tipos de Referência e Valor\\Aula01\\obj\\",
+        "outputPath": "C:\\Users\\isabe\\Documents\\Aprendizado Programação\\Cursos\\curso-csharp-dotnet\\01 - Tipos de Referência e Valor\\Aula01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\isabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
